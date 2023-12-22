@@ -2,6 +2,8 @@
 
 *Test Technique [StrategIn](https://strateg.in/)*
 
+![logo](./backend/data/strategIn_logo.png)
+
 ## Sommaire
 
 - [Description](#description)
