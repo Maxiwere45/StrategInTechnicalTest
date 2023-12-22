@@ -4,10 +4,10 @@
 
 ## Sommaire
 - [Prérequis](#prérequis)
-- [Installation des dépendances](#installation-des-dépendances)
-- [Lancement du projet](#lancement-du-projet)
+- [Installation des dépendances](#installation-des-dépendances-du-projet)
+- [Lancement du projet](#lancement-du-serveur-node)
 - [Client](#client)
-- [TEST AVEC POSTMAN](#test-avec-postman)
+- [TEST AVEC POSTMAN](#tests-avec-postman)
   - [`POST /login`](#post-login)
   - [`POST /register`](#post-register)
   - [`GET /users`](#get-users)
@@ -18,13 +18,23 @@
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-## Installation des dépendances
+> Vérifier que Node.js et npm sont bien installés en tapant les commandes suivantes dans un terminal :
+
+```bash
+node -v
+```
+    
+```bash
+npm -v
+```
+
+## Installation des dépendances du projet
 
 ```bash
 npm install
 ```
 
-## Lancement du projet
+## Lancement du serveur node
 
 ```bash
 npm start
@@ -38,7 +48,7 @@ npm start
 - Vous trouverez la liste des utilisateurs dans le fichier `users.yml` dans la racine du projet.
 - Veillez à bien exécuter le client dans un serveur local. (Exemple : [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) pour Visual Studio Code)
 
-## TEST AVEC POSTMAN
+## TESTS AVEC POSTMAN
 
 - Pour tester les routes, vous pouvez utiliser **Postman**.
 - Vous trouverez un fichier `StrategInTechnicalTest.postman_collection.json` dans la racine du projet (à importer sur Postman) contenant les requêtes pour tester les routes.
