@@ -1,0 +1,2 @@
+# StrategInTechnicalTest
+Test Technique StrategIn
