@@ -1,0 +1,9 @@
+utilisateurs:
+  - email: "guest1@gmail.com"
+    password: "guest1"
+
+  - email: "guest2@gmail.com"
+    password: "guest2"
+
+  - email: "guest3@gmail.com"
+    password: "guest3"

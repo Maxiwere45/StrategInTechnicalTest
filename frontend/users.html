@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <title>Users</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+
+<div>
+    <div class="container">
+        <h2>Liste des utilisateurs enregistrés</h2>
+        <table class="table" id="usersTable">
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Email</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <button class="btn btn-danger mt-3" onclick="disconnect()">Déconnexion</button>
+</div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/users.js">
+</script>
+
+</body>
+</html>
