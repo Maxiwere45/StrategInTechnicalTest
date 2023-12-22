@@ -1,8 +1,11 @@
 # StrategInTechnicalTest
 
-*Test Technique StrategIn*
+*Test Technique [StrategIn](https://strateg.in/)*
 
 ## Sommaire
+
+- [Description](#description)
+- [Technologies utilisées](#technologies-utilisées)
 - [Prérequis](#prérequis)
 - [Installation des dépendances](#installation-des-dépendances-du-projet)
 - [Lancement du projet](#lancement-du-serveur-node)
@@ -12,6 +15,23 @@
   - [`POST /register`](#post-register)
   - [`GET /users`](#get-users)
 - [AUTEUR](#auteur)
+
+## Description
+
+- Ce projet est un test technique pour l'entreprise [StrategIn](https://strateg.in/) dans le cadre d'un recrutement pour un poste de développeur web back-end
+- Il s'agit d'un serveur Node.js avec une API REST permettant de se connecter et de s'inscrire.
+- Le projet contient également un client HTML, CSS et JS permettant de se connecter et de s'inscrire.
+
+## Technologies utilisées
+
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [JSON Web Token](https://jwt.io/)
+- [bcrypt](https://www.npmjs.com/package/bcrypt)
+- [nodemon](https://www.npmjs.com/package/nodemon)
+- [Postman](https://www.postman.com/)
+- [Webstorm](https://www.jetbrains.com/fr-fr/webstorm/)
+- [MongoDB](https://www.mongodb.com/fr)
 
 ## Prérequis
 
