@@ -16,6 +16,7 @@
     "request": "^2.88.2",
     "request-promise": "^4.2.6",
     "bcrypt": "^5.0.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^8.5.1",
+    "body-parser": "^1.20.2"
   }
 }
