@@ -52,7 +52,7 @@ npm -v
 
 ## Installation des dépendances du projet
 
-- Rendez-vous dans le dossier `/backend` et entrez la commande suivante dasn un terminal pour installer les dépendances du projet :
+- Rendez-vous dans le dossier `/backend` et entrez la commande suivante dans un terminal pour installer les dépendances du projet :
 
 ```bash
 npm install
