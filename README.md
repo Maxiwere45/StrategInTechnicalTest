@@ -90,8 +90,6 @@ npm start
 }
 ```
 
-- Pour récupérer la liste des utilisateurs, il faut envoyer une requête GET à l'adresse http://localhost:3000/users
-
 ### `POST /register`
 
 - Pour s'inscrire, il faut envoyer une requête POST à l'adresse http://localhost:3000/auth/register avec un body de type JSON contenant un mail, un mot de passe.
