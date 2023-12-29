@@ -40,7 +40,7 @@
 - [Node.js](https://nodejs.org/en/)
 - [npm](https://www.npmjs.com/)
 
-> Vérifier que Node.js et npm sont bien installés en tapant les commandes suivantes dans un terminal :
+> Vérifier que Node.js et npm sont bien installés dans la version la plus récente en tapant les commandes suivantes dans un terminal :
 
 ```bash
 node -v
@@ -51,6 +51,8 @@ npm -v
 ```
 
 ## Installation des dépendances du projet
+
+- Rendez-vous dans le dossier `/backend` et entrez la commande suivante dasn un terminal pour installer les dépendances du projet :
 
 ```bash
 npm install
